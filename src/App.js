@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+// The main function component (root component) is designated with export default
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+export default function App() {
+
+  // Function component returns JSX
+  // JSX expression must be nested within parenthesis
+  // if it stretches across multiple lines
+  
+    return (
+    <div>
+
+      <h1>I love JavaScript !</h1>
+      <h2>I love React !</h2>     
+      <p> I love learning! </p>
+      <h1> Thank You! </h1>
+
+      <table>
+        <tr>
+          <th>Company</th>
+          <th>Contact</th>
+          <th>Country</th>
+        </tr>
+        <tr>
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+          <td>Germany</td>
+        </tr>
+        <tr>
+          <td>Centro comercial Moctezuma</td>
+          <td>Francisco Chang</td>
+          <td>Mexico</td>
+        </tr>
+      </table>
+
+
+
     </div>
-  );
-}
 
-export default App;
+ 
+    );
+  }
+  
